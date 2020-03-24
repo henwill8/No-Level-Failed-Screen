@@ -1,0 +1,23 @@
+{
+    "id": "NoLevelFailed",
+    "name": "No Level Failed Screen",
+    "author": "Henwill8",
+    "description": [
+        
+    ],
+    "category": "Gameplay",
+    "gameVersion": "1.6.0",
+    "version": "0.1.0",
+    "platform": "Quest",
+    "components": [
+        {
+            "type": "HookMod",
+            "installAction": {
+                "installLibraryFile": "libnolevelfailed.so"
+            },
+            "uninstallAction": {
+                "removeLibraryFile": "libnolevelfailed.so"
+            }
+        }
+    ]
+}
